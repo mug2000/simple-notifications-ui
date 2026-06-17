@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1d7afc;
+  --color-primary-dark: #0d5fd9;
+}
+
+@layer base {
+  :root {
+    @apply text-gray-800 bg-gray-50 font-sans;
+  }
+
+  body {
+    @apply grid place-items-center min-w-[320px] min-h-screen relative m-0;
+  }
+}
